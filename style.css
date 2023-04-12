@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Satisfy&family=Sedgwick+Ave+Display&display=swap');
+
+/* font-family: 'DynaPuff', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Sedgwick Ave Display', cursive; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #1c2130;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.container{
+    width:600px;
+    padding: 30px;
+    background-color: #028f76;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    border: 5px solid #d14334;
+    border-radius: 30px;
+}
+
+.container div{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: #b3e099;
+    border: 3px solid #d14334;
+    border-radius: 10px;
+}
+
+h1{
+font-family: 'Sedgwick Ave Display', cursive; 
+font-size: 40px;
+    
+}
+
+h3{
+margin: 20px;
+font-family: 'Satisfy', cursive;
+font-size: 25px;
+
+}
+p{
+font-family: 'DynaPuff', cursive; 
+font-size: 10px;
+margin: 20px;
+width: 350px;
+    
+}
+
+button{
+    font-family: 'DynaPuff', cursive; 
+font-size: 10px;
+/* margin-top: 5px; */
+width: 100px;
+height: 30px;
+border: 2x solid #028f76;
+border-radius: 20px;
+background-color:#d14334 ;
+font-size: 10px;
+color: #ffeaad;
+}
+
+button:hover{
+    background-color: #028f76;
+    cursor: pointer;
+  transition: all .5s ease;
+}
+
+#full-url{
+    border: 2px solid #d14334;
+    margin: 10px;
+    background-color: #028f76;
+    height: 30px;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffeaad;
+}
+#short-url{
+    border: 2px solid #d14334;
+    margin: 10px;
+    background-color: #028f76;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top:20px ;
+    color: #ffeaad;
+}
+.divider{
+    border: 1px solid #d14334}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
